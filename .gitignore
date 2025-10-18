@@ -1,0 +1,18 @@
+ # Sanal Ortam Klasörleri
+.env
+.venv/
+venv/
+
+# API Anahtarı
+.env
+
+# Vektör Veritabanı
+chroma_db/
+
+# Python Önbellek Dosyaları
+__pycache__/
+*.pyc
+
+# İşletim Sistemi Dosyaları
+.DS_Store
+Thumbs.db

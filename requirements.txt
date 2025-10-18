@@ -1,0 +1,30 @@
+# --- ANA FRAMEWORK ---
+# LangChain'in birbiriyle uyumlu temel paketleri
+langchain==0.2.1
+langchain-core==0.2.2
+langchain-community==0.2.1
+langchain-text-splitters==0.2.0
+
+# --- ENTEGRASYONLAR ---
+# Vektör veritabanı ve yerel model entegrasyonları
+langchain-chroma==0.1.1
+langchain-huggingface==0.0.3
+
+# --- WEB ARAYÜZÜ ---
+# Streamlit ve deploy için gerekli ek paketler
+streamlit==1.35.0
+
+# --- YAPAY ZEKA MODELLERİ ---
+# Yerel modelleri çalıştırmak için temel kütüphaneler
+sentence-transformers==2.7.0
+transformers==4.41.2
+torch==2.3.1
+# protobuf, transformers'ın doğru çalışması için bazen gerekir
+protobuf==4.25.3
+
+# --- YARDIMCI KÜTÜPHANELER ---
+# Diğer gerekli araçlar
+python-dotenv==1.0.1
+pandas==2.2.2
+tiktoken==0.7.0
+nest-asyncio==1.6.0
