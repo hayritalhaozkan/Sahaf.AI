@@ -1,4 +1,4 @@
-## Sahaf.AI: Akbank GenAI Bootcamp Projesi
+## Sahaf.AI
 
 ## Projenin Amacı
 
@@ -20,7 +20,7 @@ Bu projede, chatbot'un bilgi kaynağı olarak Kaggle üzerinde Muhammed İbrahim
 Projenin çözüm mimarisini oluşturan temel teknolojiler şunlardır:
 
 * **Hibrit RAG Mimarisi:** Proje, hibrit bir model üzerine kurulmuştur. Arama (Retrieval) işlemi yerel olarak çalışırken, cevap üretme (Generation) işlemi bulut tabanlı bir API üzerinden gerçekleştirilir.
-* **LLM (Generation Model):** Cevap üretimi için **Google Gemini API** (`gemini-1.0-pro`) kullanılmıştır.
+* **LLM (Generation Model):** Cevap üretimi için **Google Gemini API** (`gemma-3-27b-it`) kullanılmıştır.
 * **Embedding Model:** Anlamsal arama ve vektörleştirme işlemi için, yerel olarak çalışan ve yüksek performanslı **`BAAI/bge-m3`** Hugging Face modeli tercih edilmiştir.
 * **Vektör Veritabanı:** **ChromaDB**, metin parçalarının vektör temsillerini depolamak ve verimli bir şekilde aramak için kullanılmıştır.
 * **Pipeline Framework:** **LangChain**, RAG mimarisinin tüm bileşenlerini (retriever, prompt, LLM) birbirine bağlayan ana çatı olarak görev yapmıştır.
@@ -43,7 +43,7 @@ Bu proje, önceden oluşturulmuş veritabanı sayesinde hızlı bir şekilde ça
 
 * **Depoyu Klonlayın:**
     ```bash
-    git clone [https://github.com/KULLANICI_ADINIZ/Sahaf.AI.git](https://github.com/KULLANICI_ADINIZ/Sahaf.AI.git)
+    git clone [https://github.com/KULLANICI_ADINIZ/Sahaf.AI.git](https://github.com/hayritalhaozkan/Sahaf.AI.git)
     cd Sahaf.AI
     ```
 * **API Anahtarı:** Projenin ana dizininde `.env` adında bir dosya oluşturun ve içine Google AI Studio'dan aldığınız API anahtarınızı aşağıdaki formatta ekleyin:
