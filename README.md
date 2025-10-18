@@ -53,9 +53,18 @@ Bu proje, önceden oluşturulmuş veritabanı sayesinde hızlı bir şekilde ça
 
 ### 2. Ortam Kurulumu
 
-* **Sanal Ortamı Kurun ve Aktive Edin (`uv` ile):**
+* **Sanal Ortamı Kurun (`uv` ile):**
     ```bash
+    # Bu komut Windows, Linux ve macOS'ta aynıdır.
     uv venv
+    ```
+* **Oluşturulan Sanal Ortamı Aktive Edin:**
+    * **Windows (PowerShell veya CMD):**
+    ```bash
+    .\.venv\Scripts\activate
+    ```
+    * **Linux / macOS (Bash/Zsh):**
+    ```bash
     source .venv/bin/activate
     ```
 * **Gerekli Kütüphaneleri Yükleyin:**
