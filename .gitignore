@@ -6,8 +6,7 @@ venv/
 # API Anahtarı
 .env
 
-# Vektör Veritabanı
-chroma_db/
+
 
 # Python Önbellek Dosyaları
 __pycache__/
