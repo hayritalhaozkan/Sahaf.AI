@@ -1,6 +1,6 @@
 import streamlit as st
-from src.chatbot import create_rag_chain 
 import nest_asyncio
+from src.chatbot import create_rag_chain 
 
 nest_asyncio.apply()
 

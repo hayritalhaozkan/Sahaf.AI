@@ -15,3 +15,5 @@ __pycache__/
 # İşletim Sistemi Dosyaları
 .DS_Store
 Thumbs.db
+
+uv.lock
