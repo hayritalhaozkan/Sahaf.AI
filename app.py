@@ -1,8 +1,11 @@
-import nest_asyncio
-nest_asyncio.apply()
-
 import streamlit as st
 from src.chatbot import create_rag_chain 
+import nest_asyncio
+
+nest_asyncio.apply()
+
+
+
 
 # --- ARAYÜZ TASARIMI ---
 
