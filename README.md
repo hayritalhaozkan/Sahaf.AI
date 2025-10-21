@@ -33,7 +33,7 @@ Proje sonucunda, belirlenen veri setindeki kitaplar hakkında sorulan sorulara a
 
 ## Web Uygulaması Linki
 
-> Deployed web uygulamasına erişim linki buraya eklenecektir.
+https://huggingface.co/spaces/HayriTalha/Sahaf.AI
 
 ## Çalışma Kılavuzu
 
